@@ -6,11 +6,12 @@ include('adatkapcsolat.php');
 //post-tal nem látszik az elküldött adat, get-tel látszik
 
 $menu = '
+
 <div>
-<a href="?menu=filmjeim">Filmjeim</a>
-<a href="?menu=kereses">Keresés</a>
-<a href="?menu=ujfilm">Új film</a>
-<a href="?menu=proba">Próba</a>
+    <a href="?menu=filmjeim">Filmjeim</a>
+    <a href="?menu=kereses">Keresés</a>
+    <a href="?menu=ujfilm">Új film</a>
+    <a href="?menu=proba">Próba</a>
 </div>';
 
 if ($_REQUEST['menu'] == 'kereses'){
