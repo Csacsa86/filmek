@@ -14,6 +14,7 @@ $menu = '
     <a href="?menu=proba">Próba</a>
 </div>';
 
+//ez meg az én megjegyzésem
 if ($_REQUEST['menu'] == 'kereses'){
 	$tartalom = '
 	<form action="" method="post">
